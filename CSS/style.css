@@ -1,0 +1,147 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.titulo {
+    font-size: 5rem;
+    margin: 0;
+}
+.nav_principal {
+    text-align: center;
+    margin-top: 10px;
+}
+.nav_principal a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.article {
+    margin-bottom: 1rem;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.article p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1px; /* Reducir el espacio entre el texto y la imagen */
+}
+.article img {
+    float: left;
+    max-width: 30rem;
+    width: 100%;
+    border-radius:40px;
+    margin-bottom: 30px;
+}
+
+.article h2 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.article p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+.boton_leer_mas {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.boton_leer_mas:hover {
+    background-color: #555;
+}
+.sidebar {
+    flex: 1;
+}
+.widget {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 60px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.widget a{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;   /*Cuando agregmaos el flex recien podemos usar el margin */
+}
+.widget h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.widget ul {
+    list-style-type: none;
+    padding: 0;
+}
+.widget ul link {
+    margin-bottom: 10px;
+}
+.widget ul link a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+.redes_sociales {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.redes_sociales link {
+    display: inline;
+    margin-right: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.izquierda{
+    font-size: 42px;
+}
+article p{
+    font-size: 16px;
+}
+img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.container{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 40vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: none ;
+}
